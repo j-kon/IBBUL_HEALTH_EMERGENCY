@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/drawer_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="16dp">
+
+    <RelativeLayout
+        android:id="@+id/relativelayout_for_fragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Press any of this buttons for any emergency report before reaching any of this two locations"
+            android:textColor="#ff000000"
+            android:textSize="17sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btn_ic"
+            android:layout_width="196dp"
+            android:layout_height="128dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="106dp"
+            android:text="IBBUL Clinic"
+            android:textColor="#ff367c21"
+            android:textSize="25dp"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/btn_gh"
+            android:layout_width="196dp"
+            android:layout_height="121dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="117dp"
+            android:text="General Hospital"
+            android:textColor="#ff367c21"
+            android:textSize="25dp" />
+    </RelativeLayout>
+    <android.support.design.widget.NavigationView
+        android:layout_gravity="start"
+        android:background="#ff309f30"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        app:headerLayout="@layout/nav_header_health_profile"
+        app:itemIconTint="#ffffffff"
+        app:itemTextColor="#ffffffff"
+        app:menu="@menu/health_profile" />
+</android.support.v4.widget.DrawerLayout>
+

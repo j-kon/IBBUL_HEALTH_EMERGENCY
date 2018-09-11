@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HealthReport"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/contact_form_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="5dp"
+        android:text="MEDICAL UPDATE"
+        android:textColor="#000"
+        android:textSize="23dp"
+        android:typeface="serif" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#000"
+        android:textColor="#fff"
+        android:clickable="true"
+        android:elevation="4dp"
+        android:padding="20dp"
+        android:text="DOCTOR'S REPORT"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#fff"
+        android:clickable="true"
+        android:elevation="4dp"
+        android:padding="20dp"
+        android:text="Please excuse this above student from lectures for a week, it appear as though a serious fever throat infection and is not yet been cured. I am prescribing a week complete bed rest with plenty of liquid and oil free food along with proper dosage of the prescribed medicines
+
+Sincerely
+
+Dr Barter"
+        android:textSize="15dp"
+        android:textColor="#000"/>
+
+
+</LinearLayout>
